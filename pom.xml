@@ -141,7 +141,26 @@
           <version>5.1.14</version>
       </dependency>
 
-</dependencies>
+      <dependency>
+          <artifactId>slf4j-api</artifactId>
+          <groupId>org.slf4j</groupId>
+          <type>jar</type>
+          <version>1.6.1</version>
+      </dependency>
+
+      <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>log4j-over-slf4j</artifactId>
+          <version>1.6.1</version>
+      </dependency>
+
+      <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-simple</artifactId>
+          <version>1.6.1</version>
+      </dependency>
+
+  </dependencies>
 
  <distributionManagement>
     <repository>
