@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.org.devops</groupId>
+  <groupId>org.devops</groupId>
   <artifactId>edureka</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
@@ -141,26 +141,7 @@
           <version>5.1.14</version>
       </dependency>
 
-      <dependency>
-          <artifactId>slf4j-api</artifactId>
-          <groupId>org.slf4j</groupId>
-          <type>jar</type>
-          <version>1.6.1</version>
-      </dependency>
-
-      <dependency>
-          <groupId>org.slf4j</groupId>
-          <artifactId>log4j-over-slf4j</artifactId>
-          <version>1.6.1</version>
-      </dependency>
-
-      <dependency>
-          <groupId>org.slf4j</groupId>
-          <artifactId>slf4j-simple</artifactId>
-          <version>1.6.1</version>
-      </dependency>
-
-  </dependencies>
+</dependencies>
 
  <distributionManagement>
     <repository>
