@@ -1,4 +1,4 @@
-package com.mkyong.examples;
+package com.edureka.project;
 
 import org.junit.jupiter.api.Test;
 

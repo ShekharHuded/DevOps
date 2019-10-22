@@ -1,4 +1,4 @@
-package com.mkyong.examples;
+package com.edureka.project;
 
 public class MagicBuilder {
 

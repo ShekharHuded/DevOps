@@ -1,4 +1,4 @@
-package com.mkyong.examples;
+package com.edureka.project;
 
 import org.junit.jupiter.api.Test;
 
@@ -8,7 +8,7 @@ public class TestMessageBuilder {
 
 	@Test
 	public void testHelloWorld() {
-		assertEquals("hello world", MessageBuilder.getHelloWorld());
+		assertEquals("Hello, world", MessageBuilder.getHelloWorld());
 	}
 
 	@Test

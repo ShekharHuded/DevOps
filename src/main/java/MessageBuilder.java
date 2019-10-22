@@ -1,9 +1,9 @@
-package com.mkyong.examples;
+package com.edureka.project;
 
 public class MessageBuilder {
 
 	public static String getHelloWorld(){
-		return "hello world";
+		return "Hello, world";
 	}
 
 	public static int getNumber10(){
