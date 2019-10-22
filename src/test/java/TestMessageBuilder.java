@@ -17,8 +17,7 @@ public class TestMessageBuilder {
 	}
 	
 	@Test
-	public void testNumbers20() {
-		assertEquals(20, MessageBuilder.getNumber10());
-
+	public void testprint() {
+		System.out.println ("Hello") ;
 	}
 }
