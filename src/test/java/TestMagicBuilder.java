@@ -10,5 +10,8 @@ public class TestMagicBuilder {
 	public void testLucky() {
 		assertEquals(7, MagicBuilder.getLucky());
 	}
-
+	@Test
+	public void printline() {
+		System.out.println ("Hello, Test Case") ;
+	}
 }
