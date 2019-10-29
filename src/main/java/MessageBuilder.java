@@ -12,7 +12,6 @@ public class MessageBuilder {
 	
 	public static void main (String[] args) {
 		System.out.println("Hello World :) ");
-		getHelloworld ();
-		getNumber10 ();
+	
 	}
 }
