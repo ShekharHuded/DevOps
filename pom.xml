@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.edureka.project</groupId>
 	<artifactId>MavenAppleBiteCoProject</artifactId>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<name>MavenAppleBiteCoProject</name>
 	<url>http://maven.apache.org</url>
