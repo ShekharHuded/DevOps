@@ -2,7 +2,7 @@ package com.edureka.project;
 
 public class MagicBuilder {
 
-	public static int getLucky() {
+	public static void main (String[] args) {
 		return 7;
 	}
 
