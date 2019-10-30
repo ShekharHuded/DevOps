@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class TestMagicBuilder {
 
 	@Test
-	public void main (String[] args) {
+	public void printline () {
 		System.out.println ("Hello, Test Case") ;
 	}
 }
