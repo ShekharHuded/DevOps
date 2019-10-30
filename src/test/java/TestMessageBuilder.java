@@ -17,7 +17,7 @@ public class TestMessageBuilder {
 	}
 	
 	@Test
-	public void testprint() {
+	public void main (String[] args) {
 		System.out.println ("Hello") ;
 	}
 }
