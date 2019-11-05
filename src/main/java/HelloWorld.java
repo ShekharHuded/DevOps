@@ -1,5 +1,9 @@
 package com.edureka.project;
 
+import java.time.LocalDateTime;
+
+import java.time.format.DateTimeFormatter;
+
 public class HelloWorld {
 
 	public static void getHelloWorld (){
@@ -7,11 +11,10 @@ public class HelloWorld {
 	}
 
 	public static void getdevproj (){
-		System.out.println ( "Completed DevOPS Project" );
+		System.out.println ( "The Current Time is " + dtf.format(now) );
 	}
 	
 	public static void main (String[] args) {
-		System.out.println("Wel come!! :) ");
 		HelloWorld hello = new HelloWorld() ;
 		hello.getHelloWorld ();
 		hello.getdevproj () ;
