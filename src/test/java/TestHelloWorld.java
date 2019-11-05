@@ -17,7 +17,7 @@ public class TestHelloWorld {
 	}
 	
 	@Test
-	public void main (Strings[] args) {
+	public void print () {
 		System.out.println ("Hello") ;
 	}
 }
