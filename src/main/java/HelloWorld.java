@@ -6,7 +6,7 @@ public class HelloWorld {
 		System.out.println ( "Hello, world :)" ); 
 	}
 
-	public static void devproj (){
+	public static void getdevproj (){
 		System.out.println ( "Completed DevOPS Project" );
 	}
 	
@@ -14,6 +14,6 @@ public class HelloWorld {
 		System.out.println("Wel come!! :) ");
 		HelloWorld hello = new HelloWorld() ;
 		hello.getHelloWorld ();
-		hello.devproj () ;
+		hello.getdevproj () ;
 	}
 }
