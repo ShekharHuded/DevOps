@@ -8,12 +8,12 @@ public class TestHelloWorld {
 
 	@Test
 	public void testHelloWorld () {
-		assertEquals("Hello, world", HelloWorld.getHelloWorld());
+		assertEquals("Hello, world");
 	}
 
 	@Test
 	public void testdevproj () {
-		assertEquals(10, HelloWorld.getdevproj ());
+		assertEquals( HelloWorld.devproj ());
 	}
 	
 	@Test
