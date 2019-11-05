@@ -8,12 +8,12 @@ public class TestHelloWorld {
 
 	@Test
 	public void testHelloWorld () {
-		System.out.println ("HelloWorld getHelloWorld");
+		System.out.println ("Test getHelloWorld");
 	}
 
 	@Test
 	public void testdevproj () {
-		System.out.println ("HelloWorld getdevproj");
+		System.out.println ("Test getdevproj");
 	}
 	
 	@Test
