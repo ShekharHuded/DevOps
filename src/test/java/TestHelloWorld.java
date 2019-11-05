@@ -7,13 +7,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class TestHelloWorld {
 
 	@Test
-	public void testHelloWorld () {
-		assertEquals("Hello, world");
+	public String testHelloWorld () {
+		assertEquals("Hello, world", Helloworld.getHelloWorld());
 	}
 
 	@Test
-	public void testdevproj () {
-		assertEquals( HelloWorld.devproj ());
+	public String testdevproj () {
+		assertEquals( HelloWorld.devproj());
 	}
 	
 	@Test
