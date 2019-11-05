@@ -1,6 +1,6 @@
 package com.edureka.project;
 
-public class HelloWorld {
+public class TeseHelloWorld {
 
 	public static void getHelloWorld (){
 		System.out.println ( "Hello, world :)" ); 
