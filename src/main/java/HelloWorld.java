@@ -2,11 +2,11 @@ package com.edureka.project;
 
 public class HelloWorld {
 
-	public static String getHelloWorld (){
+	public static void getHelloWorld (){
 		System.out.println ( "Hello, world :)" ); 
 	}
 
-	public static String getdevproj (){
+	public static void getdevproj (){
 		System.out.println ( "Completed DevOPS Project" );
 	}
 	
