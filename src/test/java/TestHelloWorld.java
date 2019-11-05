@@ -1,19 +1,23 @@
 package com.edureka.project;
 
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class TestHelloWorld {
 
 	@Test
 	public void testHelloWorld () {
-		System.out.println ("Hello, world");
+		assertEquals("Hello, world", HelloWorld.getHelloWorld());
 	}
 
 	@Test
 	public void testdevproj () {
-		System.out.println ( "Completed DevOPS Project" );
+		assertEquals(10, HelloWorld.getdevproj());
 	}
 	
 	@Test
-	public void print () {
+	public void testprint () {
 		System.out.println ("Hello") ;
 	}
 }
