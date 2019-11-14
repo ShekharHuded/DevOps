@@ -1,0 +1,6 @@
+FROM java:8
+WORKDIR /home/ubuntu/docker
+ADD MavenAppleBiteCoProject.jar MavenAppleBiteCoProject.jar
+EXPOSE 8080
+ENV build default_build_value
+CMD java -cp MavenAppleBiteCoProject.jar com.edureka.project.HelloWorld

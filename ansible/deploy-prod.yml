@@ -1,0 +1,5 @@
+---
+- name: Run HelloWorld Docker Image
+  hosts: qa
+  tasks: 
+        - shell: sudo docker run -d -P 9723635352/edureka-project:"{{build}}"
